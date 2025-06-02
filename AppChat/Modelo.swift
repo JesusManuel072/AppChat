@@ -18,3 +18,9 @@ struct Room: Identifiable, Codable {
     let horaCreacion: Date
     let mensajes: [String] // Lista de mensajes dentro de la room
 }
+struct Mensaje: Identifiable, Codable {
+    @DocumentID var id: String?
+    let contenido: String
+    let usuario: String
+    let timestamp: Date
+}
