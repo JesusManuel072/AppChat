@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "C856FBA4-B322-46F9-9BC0-22F1A9AA8F4D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:AppChat.xcodeproj",
+      "identifier" : "A9AA4D4F2DDD3AAE00421D90",
+      "name" : "AppChat"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AppChat.xcodeproj",
+        "identifier" : "A9AA4D5E2DDD3AB000421D90",
+        "name" : "AppChatTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AppChat.xcodeproj",
+        "identifier" : "A9AA4D682DDD3AB000421D90",
+        "name" : "AppChatUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
